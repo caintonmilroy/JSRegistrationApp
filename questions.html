@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript Web App Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <script src="data.js"></script>
+    <script src="scoring.js"></script>
+    <script src="view.js"></script>
+    <script src="controllers.js"></script>
+    <style>
+        .box {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="box">
+    <h1>Questions Below</h1>
+    <hr/>
+    <!-- Nav tabs -->
+    <ul id="navbar" class="nav nav-tabs"></ul>
+
+    <!-- Tab panes -->
+    <div id="content" class="tab-content"></div>
+    <button id="submitbutton" class="btn btn-large btn-primary" type="button" onclick="Controller.submitAnswers()">Submit all Answers</button>
+    <hr/>
+    <table class="table table-bordered" id="summarytable">
+        <thead>
+            <h1 align="center">Student Academic Summary</h1>
+        </thead>
+        <tbody>
+            <th>Subject</th>
+            <th>Marks obtain</th>
+            <th>Total Questions</th>
+            <th>Percentage</th>
+        </tbody>
+    </table>
+</div>
+</body>
+<script src="jquery.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+    Controller.start();
+</script>
+</html>

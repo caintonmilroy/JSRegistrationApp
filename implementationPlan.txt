@@ -1,0 +1,19 @@
+DONE + fill out HTML with all questions (think ahead for html tag id's friendly to dynamic rendering)
+DONE	+ update correct answers to match!
+DONE + put tabs on page
+
+	
++ submit form, which should grey out button afterwards
+	+ DONE write Controller.submitAnswers()
+        + DONE View.getAnswers()
+        + DONE Scoring.submitAnswers()
+        + DONE Scoring.getScores()
+        + DONE View.showScores()
+		
++ DONE calculate scores, from answers (use TDD, get under test)
++ DONE check you are displaying the right scores
+~~~~~~~~~~~~~~~~~
+
++ DONE dynamically render questions to page from model JSON data
++ DONE get rid of order dependence in questions
++ spilt submit and page update into 2 controllers using a callback
