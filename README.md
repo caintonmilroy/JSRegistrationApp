@@ -1,4 +1,4 @@
-JSRegistrationApp
+Javascript Multiple Choice Web App built in MVC
 =================
 
-A Javascript Simple Web App
+A Javascript Simple Multi choice Web App
